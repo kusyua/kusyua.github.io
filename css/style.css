@@ -1327,6 +1327,24 @@ pre .javascript .function {
   margin-left: 15px;
   list-style: disc;
 }
+#profile-icon {
+  width: 100%;
+  height: auto;
+}
+.profile-icon {
+  width: 30%;
+  height: auto;
+}
+.profile-user-info {
+  width: auto;
+}
+.box {
+  float: left;
+  padding: 0 3px 0 3px;
+}
+.box-container {
+  overflow: hidden;
+}
 .widget {
   line-height: 1.6em;
   word-wrap: break-word;
