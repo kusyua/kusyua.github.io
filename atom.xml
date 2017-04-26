@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kusyua.github.io/"/>
-  <updated>2017-04-25T10:28:43.840Z</updated>
+  <updated>2017-04-26T07:59:03.829Z</updated>
   <id>http://kusyua.github.io/</id>
   
   <author>
@@ -14,6 +14,65 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ブログコンテンツの追加</title>
+    <link href="http://kusyua.github.io/tech/blog/add-blog-contents-20170426/"/>
+    <id>http://kusyua.github.io/tech/blog/add-blog-contents-20170426/</id>
+    <published>2017-04-26T07:37:15.000Z</published>
+    <updated>2017-04-26T07:59:03.829Z</updated>
+    
+    <content type="html"><![CDATA[<p>以下をブログへ追加しました。</p>
+<ul>
+<li>Profile欄</li>
+<li>RSS feed</li>
+<li>sitemap</li>
+<li>robots.txt</li>
+<li>Twitter タイムライン</li>
+<li>スポンサーリンク<ul>
+<li>審査待ち</li>
+</ul>
+</li>
+<li>記事ごとのツイートボタン</li>
+<li>関連記事の表示</li>
+</ul>
+<p>やりたいこと</p>
+<ul>
+<li>記事の追加</li>
+<li>ヘッダ画像の変更</li>
+<li>関連記事のレイアウト調整</li>
+</ul>
+<p>それっぽくなってきた。</p>
+<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ul>
+<li>hexo に google adsense 設置&amp;バナー編集<br><a href="http://tofu.hatenadiary.com/entry/2017/01/14/025420" target="_blank" rel="external">http://tofu.hatenadiary.com/entry/2017/01/14/025420</a></li>
+<li>ブログで関連記事や人気記事を生成するプラグインを作った<br><a href="https://tea3.github.io/p/hexo-related-popular-posts/" target="_blank" rel="external">https://tea3.github.io/p/hexo-related-popular-posts/</a></li>
+<li>Hexo の フィード と サイトマップ を 設定<br><a href="https://azriton.github.io/2016/11/07/Hexo%E3%81%AE%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%81%A8%E3%82%B5%E3%82%A4%E3%83%88%E3%83%9E%E3%83%83%E3%83%97%E3%82%92%E8%A8%AD%E5%AE%9A/" target="_blank" rel="external">https://azriton.github.io/2016/11/07/Hexo%E3%81%AE%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%81%A8%E3%82%B5%E3%82%A4%E3%83%88%E3%83%9E%E3%83%83%E3%83%97%E3%82%92%E8%A8%AD%E5%AE%9A/</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;以下をブログへ追加しました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Profile欄&lt;/li&gt;
+&lt;li&gt;RSS feed&lt;/li&gt;
+&lt;li&gt;sitemap&lt;/li&gt;
+&lt;li&gt;robots.txt&lt;/li&gt;
+&lt;li&gt;Twitter タイムライン&lt;/li&gt;
+&lt;li&gt;スポンサーリンク&lt;ul&gt;
+    
+    </summary>
+    
+      <category term="tech" scheme="http://kusyua.github.io/categories/tech/"/>
+    
+      <category term="blog" scheme="http://kusyua.github.io/categories/tech/blog/"/>
+    
+    
+      <category term="tech" scheme="http://kusyua.github.io/tags/tech/"/>
+    
+      <category term="blog" scheme="http://kusyua.github.io/tags/blog/"/>
+    
+  </entry>
   
   <entry>
     <title>じぶん書店 森博嗣入門</title>
@@ -99,9 +158,9 @@
       <category term="blog" scheme="http://kusyua.github.io/categories/tech/blog/"/>
     
     
-      <category term="blog" scheme="http://kusyua.github.io/tags/blog/"/>
-    
       <category term="tech" scheme="http://kusyua.github.io/tags/tech/"/>
+    
+      <category term="blog" scheme="http://kusyua.github.io/tags/blog/"/>
     
       <category term="Hexo" scheme="http://kusyua.github.io/tags/Hexo/"/>
     
