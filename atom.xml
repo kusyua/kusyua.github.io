@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ゲーム好きプログラマの砂場</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://kusyua.github.io/"/>
+  <updated>2017-04-25T10:28:43.840Z</updated>
+  <id>http://kusyua.github.io/</id>
+  
+  <author>
+    <name>kusyua</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>じぶん書店 森博嗣入門</title>
+    <link href="http://kusyua.github.io/books/books-kusyua-Mori-Hiroshi/"/>
+    <id>http://kusyua.github.io/books/books-kusyua-Mori-Hiroshi/</id>
+    <published>2017-04-25T10:17:25.000Z</published>
+    <updated>2017-04-25T10:28:43.840Z</updated>
+    
+    <content type="html"><![CDATA[<p>講談社が「じぶん書店」というサービスを開始しました。<br><a href="https://www.jibunshoten.com/bookstore/dgfmZCKn" target="_blank" rel="external">https://www.jibunshoten.com/bookstore/dgfmZCKn</a></p>
+<p>上記のように、自分の好きな本を、好きなように並べた「自分だけの書店」を作成できます。<br>思う存分に特集を組んで布教ができる、本好きのためにあるようなサービスですね。<br>試し読みやアフィリエイトもあるようです。</p>
+<p>さっそく森博嗣氏の特集を作成。<br><a href="https://www.jibunshoten.com/bookstore/dgfmZCKn/groupBooks/871" target="_blank" rel="external">https://www.jibunshoten.com/bookstore/dgfmZCKn/groupBooks/871</a></p>
+<p>講談社縛りなのが悩ましいですが、面白いサービスなので積極的に使っていきたいと思います。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;講談社が「じぶん書店」というサービスを開始しました。&lt;br&gt;&lt;a href=&quot;https://www.jibunshoten.com/bookstore/dgfmZCKn&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.jibunsh
+    
+    </summary>
+    
+      <category term="books" scheme="http://kusyua.github.io/categories/books/"/>
+    
+    
+      <category term="books" scheme="http://kusyua.github.io/tags/books/"/>
+    
+      <category term="じぶん書店" scheme="http://kusyua.github.io/tags/%E3%81%98%E3%81%B6%E3%82%93%E6%9B%B8%E5%BA%97/"/>
+    
+      <category term="森博嗣" scheme="http://kusyua.github.io/tags/%E6%A3%AE%E5%8D%9A%E5%97%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://kusyua.github.io/tech/blog/hello-world/"/>
+    <id>http://kusyua.github.io/tech/blog/hello-world/</id>
+    <published>2017-04-17T03:39:26.633Z</published>
+    <updated>2017-04-19T03:39:32.842Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="ブログ作りました"><a href="#ブログ作りました" class="headerlink" title="ブログ作りました"></a>ブログ作りました</h1><p>kusyuaです。</p>
+<ul>
+<li>twitter とかQiita(ほとんど使ってない)以外にもoutputの場を設けたい</li>
+<li>GitHub Pages で遊びたい</li>
+</ul>
+<p>この辺の理由から、ブログを作ってみました。<br>想定しているコンテンツは以下の通り。</p>
+<ul>
+<li>作ったものを公開</li>
+<li>ゲームの感想/攻略/メモ</li>
+<li>読んだ小説の感想/レビュー</li>
+<li>その他</li>
+</ul>
+<p>現状何のビジョンもありませんが、ぼちぼち増やせていけたらいいなー<br>記事、レイアウト、他サービスとの連携等そのうちやっていきます。多分。</p>
+<h2 id="ブログ環境について"><a href="#ブログ環境について" class="headerlink" title="ブログ環境について"></a>ブログ環境について</h2><p>ブログ環境は以下を使用。</p>
+<ul>
+<li>GitHub Pages</li>
+<li>Hexo(静的サイトジェネレータ)</li>
+</ul>
+<h3 id="GitHub-Pages"><a href="#GitHub-Pages" class="headerlink" title="GitHub Pages"></a>GitHub Pages</h3><p>GitHub PagesはGitHubのリポジトリをそのままWebサイトとして公開できるサービス。<br>サーバサイドは弄れないものの、天下のGitHub様にサーバ管理を丸投げできるという素晴らしいサービス。<br>しかも無料。遊び場にはもってこいです。ありがたや……<br><a href="https://pages.github.com/" target="_blank" rel="external">https://pages.github.com/</a></p>
+<h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>静的サイトジェネレータをちゃんと比較した訳ではありませんが、<br>以下の点からHexoを導入。</p>
+<ul>
+<li>ブログに特化</li>
+<li>Markdownが使える</li>
+<li>javascript</li>
+<li>NodeJsで簡単に構築/管理できる</li>
+</ul>
+<p>githubにリポジトリを用意してしまえば、すべてNodejsで作れるあたり、面倒臭がりにも安心です。</p>
+<p><code>npm install -g hexo</code><br><code>hexo init &#39;ブログ名&#39;</code><br>これだけでだいたいの環境が揃います。多分これが一番早いと思います。<br><a href="https://hexo.io/" target="_blank" rel="external">https://hexo.io/</a></p>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul>
+<li>Hexo と GitHub Pages でブログ環境を構築して公開する<br><a href="http://qiita.com/bird_tummy/items/5988a1efe47e0d47132b" target="_blank" rel="external">http://qiita.com/bird_tummy/items/5988a1efe47e0d47132b</a></li>
+<li>所要時間3分!? Github PagesとHEXOで爆速ブログ構築してみよう！<br><a href="https://liginc.co.jp/web/programming/server/104594" target="_blank" rel="external">https://liginc.co.jp/web/programming/server/104594</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;ブログ作りました&quot;&gt;&lt;a href=&quot;#ブログ作りました&quot; class=&quot;headerlink&quot; title=&quot;ブログ作りました&quot;&gt;&lt;/a&gt;ブログ作りました&lt;/h1&gt;&lt;p&gt;kusyuaです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;twitter とかQiita(ほとんど使って
+    
+    </summary>
+    
+      <category term="tech" scheme="http://kusyua.github.io/categories/tech/"/>
+    
+      <category term="blog" scheme="http://kusyua.github.io/categories/tech/blog/"/>
+    
+    
+      <category term="blog" scheme="http://kusyua.github.io/tags/blog/"/>
+    
+      <category term="tech" scheme="http://kusyua.github.io/tags/tech/"/>
+    
+      <category term="Hexo" scheme="http://kusyua.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
